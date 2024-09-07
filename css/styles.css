@@ -251,14 +251,6 @@ footer a:hover {
     z-index: -1;
 }
 
-/* .resume header::before {
-    background: var(--base-lightest-color) center;
-    background-size: cover;
-    content: "";
-    display: block;
-    height: 375px;
-} */
-
 .resume-section {
     margin-bottom: 50px;
 }
@@ -314,6 +306,78 @@ footer a:hover {
     width: 300px;
     float: left;
     margin-right: 20px;
+}
+
+.project-item video {
+    width: 720px;
+    height: 1080px;
+    float: right;
+}
+
+/* UI-UX
+----------------------------------*/
+
+.ui-ux {
+    background: var(--base-lightest-color) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.ui-ux-content {
+    background-color: var(--off-White);
+    padding: 50px;
+    font-size: 24px;
+    color: var(--base-dark-color);
+}
+
+.ui-ux h1 {
+    color: var(--off-White);
+    font-size: 80px;
+    padding: 50px;
+}
+
+.ui-ux h2 {
+    color: var(--base-medium-color);
+    text-align: left;
+}
+
+.ui-ux h3 {
+    color: var(--base-medium-color);
+    font-size: large;
+}
+
+.ui-ux-description {
+    font-size: 24px;
+    color: var(--base-dark-color);
+    margin-bottom: 250px;
+}
+
+.ui-ux .project-item {
+    background-color: var(--off-White);
+    margin-bottom: 150px;
+    display: flow-root;
+}
+
+.ui-ux .project-item ul {
+    font-size: 24px;
+    width: 600px;
+    float: left;
+}
+
+.ui-ux .project-item h2 {
+    float: left;
+}
+
+#right-side-animation {
+    width: 680px;
+    height: 320px;
+    margin-top: 50px;
+}
+
+.left-side {
+    width: 600px;
+    float: left
 }
 
 /* FOOTER
