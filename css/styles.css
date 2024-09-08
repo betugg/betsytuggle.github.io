@@ -51,7 +51,7 @@ a {
     color: var(--base-separate-color);
 }
 a:hover {
-    color: var(--base-lightest-color);
+    color: var(--base-dark-color);
     text-decoration: none;
 }
 footer a {
