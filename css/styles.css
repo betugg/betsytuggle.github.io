@@ -4,7 +4,7 @@
 
 :root {
 
-    /* Base colors */
+    /* Base / UIUX colors */
 
     --off-White: #F2F2F2;
     --base-separate-color: #638C3A;
@@ -19,6 +19,14 @@
     --animation-first-color-darker: #73624d;
     --animation-second-color-light: #BF4F36;
     --animation-second-color-dark: #8c2e26;
+
+    /* Programmer page colors */
+
+    --programmer-first-color-lighter: #0460D9;
+    --programmer-first-color-medium: #022859;
+    --programmer-first-color-darker: #012340;
+    --programmer-first-color-darkest: #051726;
+    --programmer-second-color: #69BF41;
 }
 
 html {
@@ -125,6 +133,10 @@ footer a:hover {
     color: var(--base-dark-color);
 }
 
+.home p {
+    margin-left: 0px;
+}
+
 .career-button {
     color: var(--off-White);
     padding: 10px 20px;
@@ -195,6 +207,10 @@ footer a:hover {
     margin-left: 1050px;
 }
 
+.animation footer p {
+    margin-left: 0px;
+}
+
 /* PROJECT LOG
 ----------------------------------*/
 
@@ -259,6 +275,10 @@ footer a:hover {
     border-bottom: 2px dashed #d3d4d6;
 }
 
+.resume p {
+    margin-left: 0px;
+}
+
 .download-link {
     position: fixed;
     padding: 10px;
@@ -303,7 +323,7 @@ footer a:hover {
 }
 
 .project-item iframe {
-    width: 300px;
+    /* width: 300px; */
     float: left;
     margin-right: 20px;
 }
@@ -347,6 +367,10 @@ footer a:hover {
     font-size: large;
 }
 
+.ui-ux p {
+    margin-left: 0px;
+}
+
 .ui-ux-description {
     font-size: 24px;
     color: var(--base-dark-color);
@@ -378,6 +402,68 @@ footer a:hover {
 .left-side {
     width: 600px;
     float: left
+}
+
+/* PROGRAMMER
+----------------------------------*/
+
+.programmer {
+    background: var(--programmer-first-color-darkest) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: var(--off-White);
+}
+
+.programmer h1 {
+    font-size: 120px;
+    color: var(--programmer-second-color);
+}
+
+.programmer h2 {
+    font-size: 40px;
+    color: var(--programmer-first-color-lighter);
+    text-align: center;
+}
+
+.programmer h3 {
+    font-size: 24px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.programmer h4 {
+    text-align: center;
+}
+
+.programmer-content {
+    background-color: var(--programmer-first-color-darker);
+}
+
+.programmer .content-bg {
+    background-color: var(--programmer-first-color-darkest);
+}
+
+.programmer .content-wrapper {
+    background-color: var(--programmer-first-color-darker);
+}
+
+.programmer .project-item {
+    background-color: var(--programmer-first-color-medium);
+    margin: 20px 0px;
+}
+
+.programmer .project-item ul, p {
+    margin-left: 100px;
+}
+
+.programmer footer p {
+    margin-left: 0px;
+}
+
+.programmer .project-item img {
+    margin: 50px 50px;
+    margin-top: 0px;
 }
 
 /* FOOTER
