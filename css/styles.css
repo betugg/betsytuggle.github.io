@@ -262,6 +262,12 @@ footer a:hover {
     padding-left: 20px;
 }
 
+.center-object {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* RESUME 
 ----------------------------------*/
 
