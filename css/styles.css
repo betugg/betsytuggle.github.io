@@ -249,12 +249,17 @@ footer a:hover {
 }
 
 /* .project-log-entry img {
-    display: flow-root;
-    margin: 30px 0;
-} */
+    display: flex;
+    /* margin: 30px 0; */
+/* } */
 
 .entry-left {
     width: 550px;
+}
+
+.entry-right {
+    float: right;
+    padding-left: 20px;
 }
 
 /* RESUME 
