@@ -236,6 +236,12 @@ footer a:hover {
     margin-top: 60px;
 }
 
+.project-log .project-log-entry h5 {
+    color: var(--base-medium-color);
+    margin-left: 20px;
+    font-style: italic;
+}
+
 .project-log .project-log-entry p {
     color: var(--base-dark-color);
     font-size: 20px;
@@ -248,13 +254,28 @@ footer a:hover {
     padding: 100px;
 }
 
+.project-log footer p {
+    margin-left: 0px;
+}
+
 /* .project-log-entry img {
-    display: flow-root;
-    margin: 30px 0;
-} */
+    display: flex;
+    /* margin: 30px 0; */
+/* } */
 
 .entry-left {
     width: 550px;
+}
+
+.entry-right {
+    float: right;
+    padding-left: 20px;
+}
+
+.center-object {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* RESUME 
