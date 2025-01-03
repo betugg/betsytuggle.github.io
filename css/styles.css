@@ -46,6 +46,67 @@ body {
     background: var(--off-White);
 }
 
+.entry-left {
+    width: 550px;
+}
+
+.entry-right {
+    float: right;
+    padding-left: 20px;
+}
+
+.center-object {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* DROPDOWN MENU  */
+
+.dropDown {
+    text-align: right;
+    padding: 10px;
+}
+
+.dropDown-icon {
+    text-align: right;
+    cursor: pointer;
+}
+
+.dropDown ul li {
+    list-style: none;
+    list-style-type: none;
+}
+
+.dropDown ul li a {
+    text-decoration: none;
+}
+
+.sub-menu-wrap {
+    position: absolute;
+    right: 1%;
+    width: 200px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+
+.sub-menu-wrap.open-menu {
+    max-height: 200px;
+}
+
+.sub-menu {
+    background-color: var(--off-White);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.sub-menu-link:hover p {
+    font-weight: 600px;
+    transform: scale(100px);
+}
+
 /* links */
 a {
     color: var(--base-separate-color);
@@ -75,11 +136,6 @@ footer a:hover {
 
 .content-bg {
     padding: 30px;
-}
-
-.dropDown-icon {
-    margin: 10px;
-    text-align: right;
 }
 
 .raleway-font {
@@ -185,7 +241,7 @@ footer a:hover {
     margin-left: 450px;
 }
 
-.animation ul {
+.animation-list {
     color: var(--animation-second-color-dark);
     margin-left: 100px;
     font-size: 24px;
@@ -262,21 +318,6 @@ footer a:hover {
     display: flex;
     /* margin: 30px 0; */
 /* } */
-
-.entry-left {
-    width: 550px;
-}
-
-.entry-right {
-    float: right;
-    padding-left: 20px;
-}
-
-.center-object {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 /* RESUME 
 ----------------------------------*/
