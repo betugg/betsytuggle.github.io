@@ -11,8 +11,18 @@
   </head>
   <body class="animation raleway-font" style="margin-top:0">
     <!-- //  INTRO  // -->
-    <div class="dropDown-icon">
-      <a href="index.html"><img class="dropDown-icon" src="images/dropDown-icon.png"></a>
+    <div class="dropDown">
+      <img class="dropDown-icon" src="images/dropDown-icon.png" onclick="toggleMenu()">
+      <div class="sub-menu-wrap" id="subMenu">
+        <nav class="sub-menu">
+          <ul>
+            <li class="sub-menu-link"><a href="index.html">Home</a></li>
+            <li class="sub-menu-link"><a href="2d-animation.html">Animation</a></li>
+            <li class="sub-menu-link"><a href="ui-ux.html">UI/UX</a></li>
+            <li class="sub-menu-link"><a href="programmer.html">Programming</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
     <div class="content-wrapper">
         <div class="content-bg">
@@ -30,7 +40,7 @@
                 <video autoplay muted loop class="project-video">
                     <source src="videos/SoL-Scene-1.mp4" type="video/mp4">
                 </video>
-                <ul>
+                <ul class="animation-list">
                     <li>Animated every shot myself in sync with the music</li>
                     <li>Storyboarded the entirety of the short myself</li>
                     <li>Designed the characters and environments within the short film</li>
@@ -43,7 +53,7 @@
               <h3 style="margin-left: 560px;">On-going</h3>
               <!-- <hr> -->
               <iframe class="project-video" width="560" height="315" src="https://www.youtube.com/embed/LRQnJkV21rc?si=JywEhSrAaHPgH-P9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-              <ul>
+              <ul class="animation-list">
                   <li>Direct a team of 10 other animators / artists to complete the short</li>
                   <li>Enlisted 2 character designers to help maintain a consistent style</li>
                   <li>Coordinate with 3D modelers and animators to maintain 2D and 3D elements</li>
@@ -58,7 +68,7 @@
               <h2 style="margin-left:300px">Childhood Cancer Society</h2>
               <img src="images/ccs-logo.png" style="margin-left:430px">
               <!-- <iframe class="project-video" src="https://www.youtube.com/embed/zzGQPODyidM?feature=shared"></iframe> -->
-              <ul>
+              <ul class="animation-list">
                   <li>Collaborated with about thirty other artists and animators to complete projects on tight deadlines
                     </li>
                   <li>Individually, designed two new characters to be used in promotional material</li>
@@ -71,7 +81,7 @@
               <h2>Birds at Work</h2>
               <!-- <hr> -->
               <iframe class="project-video" src="https://www.youtube.com/embed/WOmgsz-GYhk?feature=shared"></iframe>
-              <ul>
+              <ul class="animation-list">
                   <li>Created, storyboarded, directed, and designed characters/story for my original short film
                     </li>
                   <li>Animated the entirety of my short film by hand in one month</li>
@@ -101,5 +111,6 @@
       </ul>
       <!-- End content edits here. -->
     </footer>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>

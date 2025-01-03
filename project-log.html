@@ -11,8 +11,18 @@
   </head>
   <body class="project-log raleway-font" style="margin-top:0">
     <!-- //  INTRO  // -->
-    <div class="dropDown-icon">
-      <a href="index.html"><img class="dropDown-icon" src="images/dropDown-icon.png"></a>
+    <div class="dropDown">
+      <img class="dropDown-icon" src="images/dropDown-icon.png" onclick="toggleMenu()">
+      <div class="sub-menu-wrap" id="subMenu">
+        <nav class="sub-menu">
+          <ul>
+            <li class="sub-menu-link"><a href="index.html">Home</a></li>
+            <li class="sub-menu-link"><a href="2d-animation.html">Animation</a></li>
+            <li class="sub-menu-link"><a href="ui-ux.html">UI/UX</a></li>
+            <li class="sub-menu-link"><a href="programmer.html">Programming</a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
     <div class="content-wrapper">
         <div class="content-bg">
@@ -93,7 +103,7 @@
                 <h2>OpenGL Dragon Final</h2>
                 <h5>Jan. 2024 - May 2024</h5>
                 <hr>
-                <img src="images/final_dragon.png" style="width: 1080px; height: 500px">
+                <img src="images/final_dragon.png" style="width: 100%; height: 500px">
                 <section>
                   <p>Creating this dragon image using OpenGL and C++ was a very rewarding experience, allowing me to dive deeper into computer graphics and technical details behind it. This was a group project with two other members. I was in charge of the dragon itself while my teammates were in charge of the background and terrain.</p>
                   <p>The dragon is a model I found on the website, <a href="https://free3d.com/3d-model/smaug--65285.html" target="_blank">Free3D</a>, and was made by andry94. My goal with the model was to code and implement a custom fragment shader to give an opacity to the model as well as a crystal texture. In the end, I was successful implementing both as well as posing the dragon in Blender to better fit the environment.
@@ -226,5 +236,6 @@
       </ul>
       <!-- End content edits here. -->
     </footer>
+    <script type="text/javascript" src="script.js"></script>
   </body>
 </html>
